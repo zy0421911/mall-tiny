@@ -6,6 +6,10 @@ import java.util.List;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
+
+/**
+ * @author yue
+ */
 @Repository
 public interface UmsAdminMapper {
     long countByExample(UmsAdminExample example);
